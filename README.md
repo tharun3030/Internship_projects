@@ -64,21 +64,56 @@ python image_classification.py
 
 This script will preprocess the data, build and train the model, and display the accuracy on the CIFAR-10 dataset.
 
-## Task 3-Fraud Transaction Detection
-This repository contains a machine learning model built to detect fraudulent credit card transactions. The model utilizes the Random Forest algorithm to identify suspicious patterns in transaction data.
-## Key Features:
-  -Data Preprocessing: Handles missing values and addresses imbalanced classes.
-  -Model Training: Trains a Random Forest classifier on a labeled dataset.
-  -Model Evaluation: Evaluates the model's performance using metrics like precision, recall, F1-score, and accuracy.
-  -Classification Report: Provides a detailed breakdown of the model's performance on different classes.
-## How to Use:
-  -Data Preparation:
-    -Ensure your dataset has columns representing relevant features (e.g., transaction amount, time, location, etc.) and a binary target variable indicating fraudulent (1) or non-fraudulent (0) transactions.
-    -Preprocess the data as described in the code.
-  -Model Training:
-    -Run the provided Python script.
-    -The script will train the Random Forest model on the prepared data.
-  -Model Evaluation:
-    -The script will output a classification report, providing insights into the model's performance.
+Here’s a sample README description for the provided `fraud_detection.py` file, assuming it’s a Python script designed to detect fraudulent transactions in a dataset.
+
+---
+
+# Task 3-Fraud Detection
+
+This Python script, `fraud_detection.py`, implements a machine learning-based approach to detect fraudulent transactions. It processes credit card transaction data to classify transactions as either fraudulent or legitimate. This solution can help in preventing fraud by identifying suspicious activities in financial datasets.
+
+## Features
+
+- Data Preprocessing: Cleans and prepares transaction data for model training and evaluation.
+- Feature Engineering: Transforms and selects important features that enhance the model’s accuracy in detecting fraud.
+- Model Training: Uses a classification model, such as logistic regression, decision trees, or random forests, to learn patterns in the data.
+- Model Evaluation: Evaluates the trained model using metrics like accuracy, precision, recall, and F1-score.
+- Prediction: Classifies new transactions based on the trained model and identifies potential fraud cases.
+
+## Prerequisites
+
+- Python 3.x
+
+## Usage
+
+To run the fraud detection script, use the following command:
+```bash
+python fraud_detection.py
+```
+
+The script reads in a dataset of transactions, trains a model on labeled data, and outputs metrics indicating the model’s performance. 
+
+## Example Dataset
+
+Ensure that you have a CSV file containing credit card transaction data with features like:
+- `Transaction Amount`
+- `Transaction Time`
+- `Merchant ID`
+- `Customer ID`
+- `Fraud Label` (1 for fraudulent, 0 for legitimate)
+
+The script assumes a dataset format where each row represents a transaction and each column represents a transaction feature.
+
+## Model and Evaluation
+
+The script trains a classification model (e.g., logistic regression, decision tree) to detect fraud. Key evaluation metrics include:
+
+- Accuracy: Measures the percentage of correct predictions.
+- Precision: Measures the proportion of actual fraud cases among the transactions flagged as fraudulent.
+- Recall: Measures the proportion of correctly identified fraud cases out of all actual fraud cases.
+- F1 Score: Balances precision and recall to provide a single performance measure.
+
+These metrics help gauge the model’s effectiveness and reliability in detecting fraud.
+
 
 
