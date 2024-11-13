@@ -4,7 +4,7 @@ Future Intern Projects
 
 ---
 
-# Task 2-Iris Flowers Classification
+# Task 1-Iris Flowers Classification
 
 This project provides an implementation of a machine learning model for classifying iris flower species based on their physical characteristics. The dataset used is the famous Iris dataset, which includes measurements of sepal length, sepal width, petal length, and petal width for three species of iris: Setosa, Versicolor, and Virginica.
 
@@ -38,7 +38,7 @@ The file appears to be a Python script for image classification using a Convolut
 
 ---
 
-# Task 3-Image Classification with ResNet50 on CIFAR-10
+# Task 2-Image Classification with ResNet50 on CIFAR-10
 
 This project implements an image classification model using the ResNet50 architecture on the CIFAR-10 dataset. The model is built with TensorFlow and Keras, and uses data augmentation and fine-tuning for improved performance.
 
@@ -63,5 +63,22 @@ python image_classification.py
 ```
 
 This script will preprocess the data, build and train the model, and display the accuracy on the CIFAR-10 dataset.
+
+## Task 3-Fraud Transaction Detection
+This repository contains a machine learning model built to detect fraudulent credit card transactions. The model utilizes the Random Forest algorithm to identify suspicious patterns in transaction data.
+## Key Features:
+  -Data Preprocessing: Handles missing values and addresses imbalanced classes.
+  -Model Training: Trains a Random Forest classifier on a labeled dataset.
+  -Model Evaluation: Evaluates the model's performance using metrics like precision, recall, F1-score, and accuracy.
+  -Classification Report: Provides a detailed breakdown of the model's performance on different classes.
+## How to Use:
+  -Data Preparation:
+    -Ensure your dataset has columns representing relevant features (e.g., transaction amount, time, location, etc.) and a binary target variable indicating fraudulent (1) or non-fraudulent (0) transactions.
+    -Preprocess the data as described in the code.
+  -Model Training:
+    -Run the provided Python script.
+    -The script will train the Random Forest model on the prepared data.
+  -Model Evaluation:
+    -The script will output a classification report, providing insights into the model's performance.
 
 
