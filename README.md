@@ -34,9 +34,7 @@ The Iris dataset is widely available and can be accessed through the `scikit-lea
 
 - iris_classification.py: Contains the full implementation of loading, training, and evaluating the model.
 
-The file appears to be a Python script for image classification using a Convolutional Neural Network (CNN) with the ResNet50 model as a base, leveraging TensorFlow and Keras. It includes data preprocessing, model building, and training steps for the CIFAR-10 dataset. Here’s a suggested GitHub README description for the project:
-
----
+The file appears to be a Python script for image classification using a Convolutional Neural Network (CNN) with the ResNet50 model as a base, leveraging TensorFlow and Keras. It includes data preprocessing, model building, and training steps for the CIFAR-10 dataset.
 
 # Task 2-Image Classification with ResNet50 on CIFAR-10
 
@@ -63,10 +61,6 @@ python image_classification.py
 ```
 
 This script will preprocess the data, build and train the model, and display the accuracy on the CIFAR-10 dataset.
-
-Here’s a sample README description for the provided `fraud_detection.py` file, assuming it’s a Python script designed to detect fraudulent transactions in a dataset.
-
----
 
 # Task 3-Fraud Detection
 
